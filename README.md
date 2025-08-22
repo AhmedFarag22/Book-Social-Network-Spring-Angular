@@ -28,20 +28,16 @@ Book Social Network is a full-stack application that enables users to manage the
 - Book Return Approval: Functionality to approve book returns.
 
 #### Class diagram
-<img width="1019" height="552" alt="class-diagram" src="https://github.com/user-attachments/assets/c30df400-1acb-4309-a7a6-32fc14647710" />
-
+![Class diagram](screenshots/class-diagram.png)
 
 #### Spring security diagram
-<img width="1859" height="943" alt="security" src="https://github.com/user-attachments/assets/93c4f8b6-f412-43f2-9806-3e3098495328" />
-
-
-#### Backend pipeline
-<img width="2662" height="1126" alt="be-pipeline" src="https://github.com/user-attachments/assets/93ffc876-07ef-41ac-bdb6-e1b8041d7cc4" />
+![Security diagram](screenshots/security.png)
 
 #### Backend pipeline
-<img width="2156" height="977" alt="fe-pipeline" src="https://github.com/user-attachments/assets/1f35f304-0c6f-4498-aa3e-b81f4562e23e" />
+![Security diagram](screenshots/be-pipeline.png)
 
-
+#### Backend pipeline
+![Security diagram](screenshots/fe-pipeline.png)
 
 ## Technologies Used
 
@@ -66,3 +62,44 @@ Book Social Network is a full-stack application that enables users to manage the
 - OpenAPI Generator for Angular
 - Bootstrap
 
+## Learning Objectives
+
+By following this project, students will learn:
+
+- Designing a class diagram from business requirements
+- Implementing a mono repo approach
+- Securing an application using JWT tokens with Spring Security
+- Registering users and validating accounts via email
+- Utilizing inheritance with Spring Data JPA
+- Implementing the service layer and handling application exceptions
+- Object validation using JSR-303 and Spring Validation
+- Handling custom exceptions
+- Implementing pagination and REST API best practices
+- Using Spring Profiles for environment-specific configurations
+- Documenting APIs using OpenAPI and Swagger UI
+- Implementing business requirements and handling business exceptions
+- Dockerizing the infrastructure
+- CI/CD pipeline & deployment
+
+## License
+
+This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
+
+## Getting Started
+
+To get started with the Book Social Network project, follow the setup instructions in the respective directories:
+
+- [Backend Setup Instructions](/book-network/README.md)
+- [Frontend Setup Instructions](book-network-ui/README.md)
+
+## Contributors
+
+- [Ali Bouali](https://github.com/ali-bouali)
+
+## Acknowledgments
+
+Special thanks to the developers and maintainers of the technologies used in this project. Their hard work and dedication make projects like this possible.
+Beta
+0 / 0
+used queries
+1
